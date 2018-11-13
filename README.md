@@ -9,17 +9,17 @@ A sample project to creating tokens on Etherum network by using truffle &amp; op
 - Start node server by node app.js or npm start
 
 ### API to get totalSupply
-Method: GET
-URL: http://localhost:8080/totalSupply
+- Method: GET
+- URL: http://localhost:8080/totalSupply
 
 ### API to getBalances
-Method: GET
-URL: http://localhost:8080/getBalances?address=:address
+- Method: GET
+- URL: http://localhost:8080/getBalances?address=:address
 
 ### API to transfer tokens
-Method: PUT
-URL: http://localhost:8080/transfer
-Body: {
+- Method: PUT
+- URL: http://localhost:8080/transfer
+- Body: {
   "to": "0xc4339dF2e557EebA50EF6d717bB6c8a333667fB6",
 	"amount": 10
-}
+  }
